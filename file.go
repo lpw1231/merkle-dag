@@ -7,8 +7,8 @@ const (
 
 type Node interface {
 	Size() uint64
-	Type() int
 	Name() string
+	Type() int
 }
 
 type File interface {
